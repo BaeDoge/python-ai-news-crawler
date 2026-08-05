@@ -1,19 +1,16 @@
-# 🚀 프로젝트 이름 (Project Name)
+# 🚀 AI News Crawler (KB TechLab)
 
 <!-- GitHub 배지 영역: 프로젝트의 빌드 상태, 버전, 라이선스, 사용 기술 등을 시각적으로 표현 -->
+
 <p align="center">
-  <img src="https://shields.io" alt="License" />
-  <img src="https://shields.io" alt="Release Version" />
-  <img src="https://shields.io" alt="Stars" />
-  <img src="https://shields.io" alt="Issues" />
+  <strong>KB TechLab Project - AI News Crawler</strong>
+</p>
+<p align="center">
+  <strong>- 배배배와 친구들 - </strong>
 </p>
 
 <p align="center">
-  <strong>프로젝트의 핵심 가치나 슬로건을 명확하고 임팩트 있는 한 줄로 작성하세요.</strong>
-</p>
-
-<p align="center">
-  <a href="https://your-demo-link.com"><strong>🌐 라이브 데모 둘러보기 (Live Demo) »</strong></a>
+  <a href="https://your-demo-link.com"><strong>🌐 데모 영상 (Live Demo) »</strong></a>
 </p>
 
 <br />
@@ -21,94 +18,126 @@
 ---
 
 ## 📑 목차 (Table of Contents)
-- [🚀 프로젝트 이름 (Project Name)](#-프로젝트-이름-project-name)
+- [🚀 AI News Crawler (KB TechLab)](#-ai-news-crawler-kb-techlab)
   - [📑 목차 (Table of Contents)](#-목차-table-of-contents)
   - [📖 개요 (Overview)](#-개요-overview)
   - [✨ 핵심 기능 (Key Features)](#-핵심-기능-key-features)
   - [🛠 기술 스택 (Tech Stack)](#-기술-스택-tech-stack)
+    - [](#)
+    - [Data Processing \& PDF](#data-processing--pdf)
+    - [Automation](#automation)
   - [🏁 시작하기 (Getting Started)](#-시작하기-getting-started)
     - [📋 사전 요구사항 (Prerequisites)](#-사전-요구사항-prerequisites)
     - [⚙️ 설치 및 실행 (Installation \& Setup)](#️-설치-및-실행-installation--setup)
   - [💡 사용 방법 (Usage)](#-사용-방법-usage)
+    - [수집 대상 설정 (`config.yaml`)](#수집-대상-설정-configyaml)
+    - [출력 결과물](#출력-결과물)
   - [👥 팀원 소개 (Team)](#-팀원-소개-team)
-  - [🤝 기여 방법 (Contributing)](#-기여-방법-contributing)
   - [📜 라이선스 (License)](#-라이선스-license)
 
 ---
 
 ## 📖 개요 (Overview)
 
-이 프로젝트가 왜 존재하며 어떤 문제를 해결하는지 작성합니다.
+**2026 TechLab** 연구형 IT-CoP
+
+급변하는 IT 패러다임 속에서 신기술 동향 파악은 필수적이지만, 대다수 금융기관은 보안을 위해 강력한 내부망/외부망 분리 정책을 시행하고 있습니다. 이로 인해 임직원들이 외부 IT 미디어나 기술 블로그에 실시간으로 접근하는 데 물리적 제약이 따릅니다.
+
+본 프로젝트는 이러한 문제를 해결하기 위해 외부망에서 양질의 기술 콘텐츠를 자동 수집·가공한 뒤, 사내 보안 규정(파일 반입 가이드라인)을 준수하는 정형화된 PDF 포맷으로 변환하여 안전하게 내부망으로 이관하는 자동화 프로세스를 구축합니다.
 
 > **💡 개발 목적 (Problem & Solution)**
-> - **문제 제기**: 기존 방식의 어떤 점이 불편했는지 기술합니다.
-> - **해결 방안**: 이 프로젝트가 제공하는 고유한 해결책을 설명합니다.
+> - **문제 제기**: 작성예정
+> - **해결 방안**: 작성예정
 
 ---
 
 ## ✨ 핵심 기능 (Key Features)
 
-- **🎨 현대적인 UI/UX**: 사용자 친화적인 직관적 인터페이스 제공.
-- **⚡ 실시간 데이터 동기화**: 빠르고 안정적인 반응형 아키텍처.
-- **🔒 강화된 보안**: 최신 인증 프로토콜 탑재 및 데이터 암호화.
+* **자동화된 콘텐츠 수집 (Crawling)**: 주요 IT 언론사, 글로벌 기술 블로그, 트렌드 사이트 대상 맞춤형 스크래핑
+* **데이터 전처리 및 정제**: 본문 외 광고, 스크립트, 불필요한 레이아웃 등 노이즈 제거 및 핵심 텍스트 추출
+* **정형 리포트 생성 (PDF)**: 사내 가독성을 고려한 커스텀 레이아웃 기반의 데일리 기술동향 PDF 자동 발행
+* **내부망 반입 가이드 준수**: 악성코드 및 스크립트 위협 요소를 원천 차단한 정적 문서 형태의 파일 포맷 최적화
 
 ---
 
 ## 🛠 기술 스택 (Tech Stack)
 
-사용된 핵심 기술의 아이콘 배지를 추가하여 전문성을 높입니다.
+### 
+* 
+* Playwright / BeautifulSoup4
+
+### Data Processing & PDF
+* Pandas (데이터 정제)
+* ReportLab (PDF 레이아웃 빌드)
+
+### Automation
+* GitHub Actions / Crontab (스케줄링 주기 관리)
+
 
 | Category | Technology |
 | :--- | :--- |
-| **Frontend** | <img src="https://shields.io"/> <img src="https://shields.io"/> |
+| **Crawling & Engine** | <img src="https://shields.io"/> <img src="https://shields.io"/> |
 | **Backend** | <img src="https://shields.io"/> <img src="https://shields.io"/> |
 | **Database** | <img src="https://shields.io"/> |
 | **DevOps** | <img src="https://shields.io"/> |
+
+```text
+[외부망 서버]                      [망간복사 시스템]               [은행 내부망]
++------------------------+      +---------------------+      +------------------------+
+
+| 1. IT 기술 뉴스 수집   | ---> | 3. 파일 무결성 검사  | ---> | 4. 사내 지식포털 연동  |
+| 2. 텍스트 정제 및 PDF  |      |    (보안성 심사)    |      | 5. 임직원 데일리 구독  |
++------------------------+      +---------------------+      +------------------------+
+```
 
 ---
 
 ## 🏁 시작하기 (Getting Started)
 
-프로젝트를 로컬 환경에 설치하고 구동하는 방법입니다.
-
 ### 📋 사전 요구사항 (Prerequisites)
-- [Node.js](https://nodejs.org) v18.0.0 이상
-- [npm](https://npmjs.com) v9.0.0 이상
+* Python 3.10 이상 환경
+* 외부망 인터넷 아웃바운드 통신 권한 (크롤러 작동용)
 
 ### ⚙️ 설치 및 실행 (Installation & Setup)
 
-1. 저장소 클론 (Clone the repository)
-   ```bash
-   git clone https://github.com
-   cd repo-name
-   ```
+1. 저장소 클론
+```bash
+git clone https://github.com/BaeDoge/python-ai-news-crawler.git
+cd python-ai-news-crawler
+```
 
-2. 의존성 패키지 설치 (Install dependencies)
-   ```bash
-   npm install
-   ```
+2. 가상환경 설정 및 의존성 패키지 설치 (uv)
+```bash
+python -m pip install uv
+uv sync  # Windows 환경: venv\Scripts\activate
+```
 
-3. 환경 변수 설정 (Environment Variables)
-   `.env.example` 파일을 복사하여 `.env` 파일을 생성하고 필요한 값을 입력합니다.
-   ```bash
-   cp .env.example .env
-   ```
+3. 크롤러 브라우저 바이너리 설치
+```bash
+playwright install
+```
 
-4. 로컬 서버 실행 (Run the development server)
-   ```bash
-   npm run dev
-   ```
+4. 스크립트 실행
+```bash
+python main.py
+```
 
 ---
 
 ## 💡 사용 방법 (Usage)
 
-프로젝트를 사용하는 구체적인 방법이나 스크린샷, GIF를 추가하는 곳입니다.
-
-```markdown
-<!-- 시각 자료가 있으면 가독성이 극대화됩니다 -->
-![Application Screenshot](https://placeholder.com)
+### 수집 대상 설정 (`config.yaml`)
+수집하고자 하는 기술 블로그나 뉴스 채널의 RSS 피드 및 타겟 URL 목록을 관리합니다.
+```yaml
+sources:
+  - site_name: "TechCrunch"
+    target_url: "https://techcrunch.com"
+  - site_name: "Toss_Tech"
+    target_url: "https://toss.tech"
 ```
+
+### 출력 결과물
+배치가 정상 가동되면 `dist/daily_report_[YYYYMMDD].pdf` 경로로 파일이 생성되며, 해당 파일이 사내 망간복사 프로세스를 타게 됩니다.
 
 1. **로그인**: 소셜 로그인 또는 이메일 인증을 통해 접속합니다.
 2. **대시보드**: 상단 메뉴를 통해 원하는 분석 데이터를 실시간으로 조회합니다.
@@ -123,32 +152,44 @@
   <tr>
     <td align="center">
       <a href="https://github.com">
-        <img src="https://github.com.png" width="100px;" alt="팀원1 이름"/><br />
-        <sub><b>홍길동 (Gildong Hong)</b></sub>
+        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <sub><b>배성재 (Bae Sungjae)</b></sub>
       </a><br />
-      <sub>Frontend Lead</sub>
+      <sub>역할 A</sub>
     </td>
     <td align="center">
       <a href="https://github.com">
-        <img src="https://github.com.png" width="100px;" alt="팀원2 이름"/><br />
-        <sub><b>이순신 (Sunsin Lee)</b></sub>
+        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <sub><b>배용균 (Bae Yongyun)</b></sub>
       </a><br />
-      <sub>Backend Lead</sub>
+      <sub>역할 B</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com">
+        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <sub><b>배승호 (Bae SeungHo)</b></sub>
+      </a><br />
+      <sub>역할 A</sub>
+    </td>
+
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com">
+        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <sub><b>신종은 (Bae Sungjae)</b></sub>
+      </a><br />
+      <sub>역할 A</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com">
+        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <sub><b>이은창 (Bae Yongyun)</b></sub>
+      </a><br />
+      <sub>역할 B</sub>
     </td>
   </tr>
 </table>
-
----
-
-## 🤝 기여 방법 (Contributing)
-
-이 프로젝트는 오픈소스로 기여를 환영합니다! 기여 절차는 다음과 같습니다.
-
-1. 이 프로젝트를 **Fork**합니다.
-2. 기능 개선을 위한 새 **Branch**를 생성합니다 (`git checkout -b feature/AmazingFeature`).
-3. 수정 사항을 **Commit**합니다 (`git commit -m 'Add some AmazingFeature'`).
-4. 브랜치에 **Push**합니다 (`git push origin feature/AmazingFeature`).
-5. 원본 저장소에 **Pull Request (PR)**를 요청합니다.
 
 ---
 
