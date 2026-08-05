@@ -1,8 +1,63 @@
-# TechLab Daily Insight Demo
+# 🚀 AI News Crawler (KB TechLab)
 
-중간 산출물의 Agent 구조를 실행 가능한 데모로 구현한 로컬 앱이다.
+<br>
+<p align="center">
+  <strong>KB TechLab Project - AI News Crawler</strong>
+</p>
+<p align="center">
+  <strong>- 배배배와 친구들 - </strong>
+</p>
 
-## 전체 구조
+<p align="center">
+  <a href="https://your-demo-link.com"><strong>🌐 데모 영상 (Live Demo) »</strong></a>
+</p>
+
+<br />
+
+---
+
+## 📑 목차 (Table of Contents)
+- [🚀 AI News Crawler (KB TechLab)](#-ai-news-crawler-kb-techlab)
+  - [📑 목차 (Table of Contents)](#-목차-table-of-contents)
+  - [📖 개요 (Overview)](#-개요-overview)
+    - [전체 구성도](#전체-구성도)
+  - [✨ 핵심 기능 (Key Features)](#-핵심-기능-key-features)
+  - [🛠 기술 스택 (Tech Stack)](#-기술-스택-tech-stack)
+    - [Enviroments](#enviroments)
+    - [Data Processing \& PDF](#data-processing--pdf)
+    - [Automation](#automation)
+  - [🏁 시작하기 (Getting Started)](#-시작하기-getting-started)
+    - [📋 사전 요구사항 (Prerequisites)](#-사전-요구사항-prerequisites)
+    - [⚙️ 설치 및 실행 (Installation \& Setup)](#️-설치-및-실행-installation--setup)
+  - [💡 사용 방법 (Usage)](#-사용-방법-usage)
+    - [1. 가장 빠른 실행](#1-가장-빠른-실행)
+    - [2. Key를 파일에 저장하는 방법](#2-key를-파일에-저장하는-방법)
+    - [3. 데모 실행 순서](#3-데모-실행-순서)
+    - [4. 이메일 설정](#4-이메일-설정)
+    - [5. PDF만 생성](#5-pdf만-생성)
+    - [6. 보안 유의사항](#6-보안-유의사항)
+    - [7. 무료 모델 429 오류](#7-무료-모델-429-오류)
+    - [8. 출력 결과물](#8-출력-결과물)
+  - [👥 팀원 소개 (Team)](#-팀원-소개-team)
+  - [📜 라이선스 (License)](#-라이선스-license)
+
+---
+
+## 📖 개요 (Overview)
+
+**2026 TechLab** 연구형 IT-CoP
+
+급변하는 IT 패러다임 속에서 신기술 동향 파악은 필수적이지만, 대다수 금융기관은 보안을 위해 강력한 내부망/외부망 분리 정책을 시행하고 있습니다. 이로 인해 임직원들이 외부 IT 미디어나 기술 블로그에 실시간으로 접근하는 데 물리적 제약이 따릅니다.
+
+본 프로젝트는 이러한 문제를 해결하기 위해 외부망에서 양질의 기술 콘텐츠를 자동 수집·가공한 뒤, 사내 보안 규정(파일 반입 가이드라인)을 준수하는 정형화된 PDF 포맷으로 변환하여 안전하게 내부망으로 이관하는 자동화 프로세스를 구축합니다.
+
+
+
+> **💡 개발 목적 (Problem & Solution)**
+> - **문제 제기**: 작성예정
+> - **해결 방안**: 작성예정
+
+### 전체 구성도
 
 ```mermaid
 flowchart LR
@@ -20,6 +75,30 @@ flowchart LR
     R --> E
 ```
 
+---
+
+## ✨ 핵심 기능 (Key Features)
+
+* **자동화된 콘텐츠 수집 (Crawling)**: 주요 IT 언론사, 글로벌 기술 블로그, 트렌드 사이트 대상 맞춤형 스크래핑
+* **데이터 전처리 및 정제**: 본문 외 광고, 스크립트, 불필요한 레이아웃 등 노이즈 제거 및 핵심 텍스트 추출
+* **정형 리포트 생성 (PDF)**: 사내 가독성을 고려한 커스텀 레이아웃 기반의 데일리 기술동향 PDF 자동 발행
+* **내부망 반입 가이드 준수**: 악성코드 및 스크립트 위협 요소를 원천 차단한 정적 문서 형태의 파일 포맷 최적화
+
+---
+
+## 🛠 기술 스택 (Tech Stack)
+
+### Enviroments
+* Python 3.10+
+* Playwright / BeautifulSoup4
+
+### Data Processing & PDF
+* Pandas (데이터 정제)
+* ReportLab (PDF 레이아웃 빌드)
+
+### Automation
+* GitHub Actions / Crontab (스케줄링 주기 관리)
+
 | 구성 요소 | 역할 |
 | --- | --- |
 | Collector Agent | 설정된 RSS와 GitHub API에서 공개 기술 정보를 수집하고 소스별 실행 로그를 남긴다. |
@@ -29,12 +108,43 @@ flowchart LR
 | Delivery Agent | 생성된 보고서를 SMTP로 발송하거나 메일 클라이언트에서 열 수 있는 EML 파일로 만든다. |
 | 백업 분석 규칙 | 무료 모델의 호출 제한이나 JSON 형식 오류가 발생해도 데모와 보고서 생성을 계속한다. |
 
+---
 
-실행 결과와 중간 데이터는 실행 시각별로 `outputs/YYYYMMDD_HHMMSS/`에 저장되며,
-Streamlit 화면의 `Raw / Clean`, `AI Insight`, `PDF / XLSX` 탭에서 단계별 결과를
-확인할 수 있다.
+## 🏁 시작하기 (Getting Started)
 
-## 1. 가장 빠른 실행
+### 📋 사전 요구사항 (Prerequisites)
+* Python 3.10 이상 환경
+* 외부망 인터넷 아웃바운드 통신 권한 (크롤러 작동용)
+
+### ⚙️ 설치 및 실행 (Installation & Setup)
+
+1. 저장소 클론
+```bash
+git clone https://github.com/BaeDoge/python-ai-news-crawler.git
+cd python-ai-news-crawler
+```
+
+2. 가상환경 설정 및 의존성 패키지 설치 (uv)
+```bash
+python -m pip install uv
+uv sync  # Windows 환경: venv\Scripts\activate
+```
+
+3. 크롤러 브라우저 바이너리 설치
+```bash
+playwright install
+```
+
+4. 스크립트 실행
+```bash
+python main.py
+```
+
+---
+
+## 💡 사용 방법 (Usage)
+
+### 1. 가장 빠른 실행
 
 프로젝트 디렉터리에서 다음 명령을 실행한다.
 
@@ -50,7 +160,7 @@ chmod +x scripts/run_demo.sh
 `전체 파이프라인 실행`을 누르면 된다. 기본 모델은 무료 모델을 자동 선택하는
 `openrouter/free`다.
 
-## 2. Key를 파일에 저장하는 방법
+### 2. Key를 파일에 저장하는 방법
 
 프로젝트 루트의 `.env` 파일에서 아래 한 줄의 등호 뒤에 키를
 입력하면 실행 화면에 자동 반영된다.
@@ -71,7 +181,7 @@ OPENROUTER_MODEL=openrouter/free
 - https://openrouter.ai/docs/guides/routing/routers/free-router
 - https://openrouter.ai/docs/quickstart
 
-## 3. 데모 실행 순서
+### 3. 데모 실행 순서
 
 1. 기본값인 `실시간 수집`으로 실행해 실제 공개 원문 링크를 확인한다.
 2. `샘플 데이터`는 외부 수집 없이 화면과 출력물을 빠르게 확인할 때 사용한다.
@@ -87,7 +197,7 @@ OPENROUTER_MODEL=openrouter/free
 `샘플 데이터`는 파이프라인 동작 확인을 위한 합성 데이터다. `example.com` 주소는
 실제 기사가 아니므로 앱, PDF, 이메일에서는 원문 링크 대신 샘플임을 표시한다.
 
-## 4. 이메일 설정
+### 4. 이메일 설정
 
 발신자와 수신자는 기본적으로 모두 아래 주소로 설정되어 있다.
 
@@ -123,7 +233,7 @@ SMTP Username에는 전체 Gmail 주소, SMTP App Password에는 Google 계정�
 연결이 강제로 종료될 수 있으므로 다른 네트워크에서 실행하거나 PDF를 내려받아
 Gmail 웹에서 직접 첨부한다.
 
-## 5. PDF만 생성
+### 5. PDF만 생성
 
 화면 없이 샘플 PDF와 XLSX를 생성하려면 다음 명령을 실행한다.
 
@@ -134,7 +244,7 @@ Gmail 웹에서 직접 첨부한다.
 `.env`에 OpenRouter Key가 있으면 실제 AI 분석을 사용하고, 없으면 백업 규칙으로
 PDF를 생성한다.
 
-## 6. 보안 유의사항
+### 6. 보안 유의사항
 
 - `.env`는 버전 관리에서 제외되어 있다.
 - 외부 무료 모델에는 공개 데이터만 전송한다.
@@ -142,7 +252,7 @@ PDF를 생성한다.
 - AI 요약은 최종 사실 확인 수단이 아니므로 원문 URL과 함께 검수한다.
 - 실제 메일 발송과 사내 반입은 조직의 보안 정책 및 승인 절차를 따른다.
 
-## 7. 무료 모델 429 오류
+### 7. 무료 모델 429 오류
 
 무료 모델의 공용 호출 한도가 일시적으로 소진되면 429 응답이 발생할 수 있다.
 앱은 현재 사용 가능한 무료 모델을 조회한 뒤 다음 순서로 자동 복구한다.
@@ -159,3 +269,60 @@ PDF를 생성한다.
 
 - https://openrouter.ai/docs/guides/routing/model-fallbacks
 - https://openrouter.ai/docs/api/reference/errors-and-debugging
+
+### 8. 출력 결과물
+
+실행 결과와 중간 데이터는 실행 시각별로 `outputs/YYYYMMDD_HHMMSS/`에 저장되며,
+Streamlit 화면의 `Raw / Clean`, `AI Insight`, `PDF / XLSX` 탭에서 단계별 결과를 확인할 수 있습니다.
+
+
+
+## 👥 팀원 소개 (Team)
+
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com">
+        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <sub><b>배성재 (Bae Sungjae)</b></sub>
+      </a><br />
+      <sub>역할 A</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com">
+        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <sub><b>배용균 (Bae Yongyun)</b></sub>
+      </a><br />
+      <sub>역할 B</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com">
+        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <sub><b>배승호 (Bae SeungHo)</b></sub>
+      </a><br />
+      <sub>역할 A</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com">
+        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <sub><b>신종은 (Bae Sungjae)</b></sub>
+      </a><br />
+      <sub>역할 A</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com">
+        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <sub><b>이은창 (Bae Yongyun)</b></sub>
+      </a><br />
+      <sub>역할 B</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📜 라이선스 (License)
+
+이 프로젝트는 **MIT License**를 따릅니다. 자세한 내용은 [LICENSE](./LICENSE) 파일을 참고하세요.
+
