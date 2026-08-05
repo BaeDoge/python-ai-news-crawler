@@ -23,7 +23,7 @@
   - [📖 개요 (Overview)](#-개요-overview)
   - [✨ 핵심 기능 (Key Features)](#-핵심-기능-key-features)
   - [🛠 기술 스택 (Tech Stack)](#-기술-스택-tech-stack)
-    - [](#)
+    - [Enviroments](#enviroments)
     - [Data Processing \& PDF](#data-processing--pdf)
     - [Automation](#automation)
   - [🏁 시작하기 (Getting Started)](#-시작하기-getting-started)
@@ -62,7 +62,7 @@
 
 ## 🛠 기술 스택 (Tech Stack)
 
-### 
+### Enviroments
 * Python 3.10+
 * Playwright / BeautifulSoup4
 
