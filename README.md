@@ -28,8 +28,6 @@
     - [Automation](#automation)
   - [🏁 시작하기 (Getting Started)](#-시작하기-getting-started)
     - [📋 사전 요구사항 (Prerequisites)](#-사전-요구사항-prerequisites)
-    - [⚙️ 설치 및 실행 (Installation \& Setup)](#️-설치-및-실행-installation--setup)
-  - [💡 사용 방법 (Usage)](#-사용-방법-usage)
     - [1. 가장 빠른 실행](#1-가장-빠른-실행)
     - [2. Key를 파일에 저장하는 방법](#2-key를-파일에-저장하는-방법)
     - [3. 데모 실행 순서](#3-데모-실행-순서)
@@ -115,34 +113,6 @@ flowchart LR
 ### 📋 사전 요구사항 (Prerequisites)
 * Python 3.10 이상 환경
 * 외부망 인터넷 아웃바운드 통신 권한 (크롤러 작동용)
-
-### ⚙️ 설치 및 실행 (Installation & Setup)
-
-1. 저장소 클론
-```bash
-git clone https://github.com/BaeDoge/python-ai-news-crawler.git
-cd python-ai-news-crawler
-```
-
-2. 가상환경 설정 및 의존성 패키지 설치 (uv)
-```bash
-python -m pip install uv
-uv sync  # Windows 환경: venv\Scripts\activate
-```
-
-3. 크롤러 브라우저 바이너리 설치
-```bash
-playwright install
-```
-
-4. 스크립트 실행
-```bash
-python main.py
-```
-
----
-
-## 💡 사용 방법 (Usage)
 
 ### 1. 가장 빠른 실행
 
