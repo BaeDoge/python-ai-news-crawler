@@ -29,6 +29,7 @@ flowchart LR
 | Delivery Agent | 생성된 보고서를 SMTP로 발송하거나 메일 클라이언트에서 열 수 있는 EML 파일로 만든다. |
 | 백업 분석 규칙 | 무료 모델의 호출 제한이나 JSON 형식 오류가 발생해도 데모와 보고서 생성을 계속한다. |
 
+
 실행 결과와 중간 데이터는 실행 시각별로 `outputs/YYYYMMDD_HHMMSS/`에 저장되며,
 Streamlit 화면의 `Raw / Clean`, `AI Insight`, `PDF / XLSX` 탭에서 단계별 결과를
 확인할 수 있다.
