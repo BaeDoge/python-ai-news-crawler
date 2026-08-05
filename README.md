@@ -1,7 +1,7 @@
 # 🚀 AI News Crawler (KB TechLab)
 
 <!-- GitHub 배지 영역: 프로젝트의 빌드 상태, 버전, 라이선스, 사용 기술 등을 시각적으로 표현 -->
-
+<br>
 <p align="center">
   <strong>KB TechLab Project - AI News Crawler</strong>
 </p>
@@ -63,7 +63,7 @@
 ## 🛠 기술 스택 (Tech Stack)
 
 ### 
-* 
+* Python 3.10+
 * Playwright / BeautifulSoup4
 
 ### Data Processing & PDF
@@ -81,14 +81,6 @@
 | **Database** | <img src="https://shields.io"/> |
 | **DevOps** | <img src="https://shields.io"/> |
 
-```text
-[외부망 서버]                      [망간복사 시스템]               [은행 내부망]
-+------------------------+      +---------------------+      +------------------------+
-
-| 1. IT 기술 뉴스 수집   | ---> | 3. 파일 무결성 검사  | ---> | 4. 사내 지식포털 연동  |
-| 2. 텍스트 정제 및 PDF  |      |    (보안성 심사)    |      | 5. 임직원 데일리 구독  |
-+------------------------+      +---------------------+      +------------------------+
-```
 
 ---
 
@@ -146,7 +138,6 @@ sources:
 
 ## 👥 팀원 소개 (Team)
 
-인기 레포지토리에서 자주 사용하는 깔끔한 프로필 그리드 테이블 형태입니다.
 
 <table>
   <tr>
@@ -171,9 +162,6 @@ sources:
       </a><br />
       <sub>역할 A</sub>
     </td>
-
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com">
         <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
