@@ -284,35 +284,35 @@ Streamlit 화면의 `Raw / Clean`, `AI Insight`, `PDF / XLSX` 탭에서 단계�
   <tr>
     <td align="center">
       <a href="https://github.com">
-        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <img src="./public/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
         <sub><b>배성재 (Bae Sungjae)</b></sub>
       </a><br />
       <sub>역할 A</sub>
     </td>
     <td align="center">
       <a href="https://github.com">
-        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <img src="./public/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
         <sub><b>배용균 (Bae Yongyun)</b></sub>
       </a><br />
       <sub>역할 B</sub>
     </td>
     <td align="center">
       <a href="https://github.com">
-        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <img src="./public/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
         <sub><b>배승호 (Bae SeungHo)</b></sub>
       </a><br />
       <sub>역할 A</sub>
     </td>
     <td align="center">
       <a href="https://github.com">
-        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <img src="./public/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
         <sub><b>신종은 (Bae Sungjae)</b></sub>
       </a><br />
       <sub>역할 A</sub>
     </td>
     <td align="center">
       <a href="https://github.com">
-        <img src="./src/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
+        <img src="./public/imgs/members/mem1.png" width="100px;" alt="팀원1 이름"/><br />
         <sub><b>이은창 (Bae Yongyun)</b></sub>
       </a><br />
       <sub>역할 B</sub>
