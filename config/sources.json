@@ -1,0 +1,52 @@
+[
+  {
+    "id": "github_recent_ai",
+    "name": "GitHub AI Projects",
+    "type": "github_search",
+    "category": "GitHub Trend",
+    "url": "https://api.github.com/search/repositories",
+    "query": "AI agent OR LLM",
+    "days": 14,
+    "enabled": true
+  },
+  {
+    "id": "openai_news",
+    "name": "OpenAI News",
+    "type": "rss",
+    "category": "AI Agent",
+    "url": "https://openai.com/news/rss.xml",
+    "enabled": true
+  },
+  {
+    "id": "google_ai",
+    "name": "Google AI",
+    "type": "rss",
+    "category": "AI Agent",
+    "url": "https://blog.google/technology/ai/rss/",
+    "enabled": true
+  },
+  {
+    "id": "microsoft_ai",
+    "name": "Microsoft Official Blog",
+    "type": "rss",
+    "category": "AI Agent",
+    "url": "https://blogs.microsoft.com/feed/",
+    "enabled": true
+  },
+  {
+    "id": "aws_ml",
+    "name": "AWS Machine Learning Blog",
+    "type": "rss",
+    "category": "Cloud",
+    "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+    "enabled": true
+  },
+  {
+    "id": "hacker_news",
+    "name": "Hacker News",
+    "type": "rss",
+    "category": "IT News",
+    "url": "https://hnrss.org/frontpage",
+    "enabled": true
+  }
+]
