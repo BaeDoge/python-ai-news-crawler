@@ -9,11 +9,10 @@
 </p>
 
 <p align="center">
-  ![Demo GIF](./public/videos/demo.gif)
+  <img src="./public/videos/demo.gif" width="500">
 </p>
-
 <p align="center">
-  <a href="./public/videos/demo.mp4"><strong>🌐 데모 영상 (Live Demo) »</strong></a>
+  <a href="./public/videos/demo.mp4"><strong>🌐 데모 영상 (Demo) »</strong></a>
 </p>
 
 <br />
