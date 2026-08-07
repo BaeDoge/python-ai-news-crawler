@@ -5,11 +5,15 @@
   <strong>KB TechLab Project - AI News Crawler</strong>
 </p>
 <p align="center">
-  <strong>- 배배배와 친구들 - </strong>
+  <strong>- 배배배와 친구들>
 </p>
 
 <p align="center">
-  <a href="https://your-demo-link.com"><strong>🌐 데모 영상 (Live Demo) »</strong></a>
+  ![Demo GIF](./public/videos/demo.gif)
+</p>
+
+<p align="center">
+  <a href="./public/videos/demo.mp4"><strong>🌐 데모 영상 (Live Demo) »</strong></a>
 </p>
 
 <br />
