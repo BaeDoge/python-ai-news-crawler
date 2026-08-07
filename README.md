@@ -10,10 +10,7 @@
 <p align="center">
   <strong>🌐 데모 영상 (Demo)</strong>
 </p>
-<!-- <p align="center">
-  <img src="./public/videos/demo.gif" width="500">
-</p>
-   -->
+
 
   https://github.com/user-attachments/assets/89b7d284-a93e-4390-adac-8e9c6647b418
 
