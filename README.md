@@ -11,6 +11,13 @@
 <p align="center">
   <img src="./public/videos/demo.gif" width="500">
 </p>
+
+  
+
+https://github.com/user-attachments/assets/89b7d284-a93e-4390-adac-8e9c6647b418
+
+
+
 <p align="center">
   <a href="./public/videos/demo.mp4"><strong>🌐 데모 영상 (Demo) »</strong></a>
 </p>
