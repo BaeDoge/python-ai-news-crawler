@@ -5,22 +5,19 @@
   <strong>KB TechLab Project - AI News Crawler</strong>
 </p>
 <p align="center">
-  <strong>- 배배배와 친구들>
+  <strong>- 배배배와 친구들 -</strong>
 </p>
-
 <p align="center">
+  <strong>🌐 데모 영상 (Demo)</strong>
+</p>
+<!-- <p align="center">
   <img src="./public/videos/demo.gif" width="500">
 </p>
+   -->
 
-  
-
-https://github.com/user-attachments/assets/89b7d284-a93e-4390-adac-8e9c6647b418
-
+  https://github.com/user-attachments/assets/89b7d284-a93e-4390-adac-8e9c6647b418
 
 
-<p align="center">
-  <a href="./public/videos/demo.mp4"><strong>🌐 데모 영상 (Demo) »</strong></a>
-</p>
 
 <br />
 
